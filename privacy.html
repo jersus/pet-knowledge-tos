@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Pet Knowledge Auto Publisher</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #34495e;
+            margin-top: 30px;
+        }
+        h3 {
+            color: #555;
+            margin-top: 20px;
+        }
+        .last-updated {
+            color: #7f8c8d;
+            font-style: italic;
+        }
+        ul {
+            padding-left: 25px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Privacy Policy</h1>
+    <p class="last-updated">Last Updated: February 22, 2026</p>
+
+    <h2>Introduction</h2>
+    <p>This Privacy Policy explains how Pet Knowledge Auto Publisher ("we", "our", or "the Service") collects, uses, and protects your information.</p>
+
+    <h2>Information We Collect</h2>
+
+    <h3>1. API Credentials</h3>
+    <ul>
+        <li>TikTok Client Key and Client Secret</li>
+        <li>TikTok Access Token and Refresh Token</li>
+        <li>TikTok Open ID</li>
+    </ul>
+    <p><strong>Purpose:</strong> To authenticate and publish content to your TikTok account via official TikTok API.</p>
+    <p><strong>Storage:</strong> Stored securely in environment variables on your server. Never transmitted to third parties.</p>
+
+    <h3>2. Video Metadata</h3>
+    <ul>
+        <li>Video titles, descriptions, and tags</li>
+        <li>Publishing timestamps</li>
+        <li>Video URLs</li>
+    </ul>
+    <p><strong>Purpose:</strong> To properly format and publish content to TikTok.</p>
+    <p><strong>Storage:</strong> Stored locally in log files. Automatically deleted after 30 days.</p>
+
+    <h3>3. Publishing Logs</h3>
+    <ul>
+        <li>Success/failure status of publications</li>
+        <li>Error messages (if any)</li>
+        <li>API response data</li>
+    </ul>
+    <p><strong>Purpose:</strong> For troubleshooting and service improvement.</p>
+    <p><strong>Storage:</strong> Stored locally in log files. Automatically deleted after 30 days.</p>
+
+    <h2>Information We DO NOT Collect</h2>
+    <p>We do NOT collect:</p>
+    <ul>
+        <li>Personal identification information (name, address, phone number)</li>
+        <li>Financial information</li>
+        <li>Browsing history or cookies</li>
+        <li>Location data</li>
+        <li>TikTok follower data or analytics</li>
+        <li>Any information beyond what's necessary for content publishing</li>
+    </ul>
+
+    <h2>How We Use Your Information</h2>
+    <p>Your information is used solely to:</p>
+    <ol>
+        <li>Authenticate with TikTok API</li>
+        <li>Publish your content to your TikTok account</li>
+        <li>Log publishing results for troubleshooting</li>
+    </ol>
+    <p>We do NOT:</p>
+    <ul>
+        <li>Sell or share your data with third parties</li>
+        <li>Use your data for advertising</li>
+        <li>Track your TikTok account activity</li>
+        <li>Access your TikTok account beyond content posting</li>
+    </ul>
+
+    <h2>Data Security</h2>
+    <p>We implement security measures including:</p>
+    <ul>
+        <li>Secure storage of API credentials in environment variables</li>
+        <li>No transmission of credentials over unencrypted connections</li>
+        <li>Access control to server and files</li>
+        <li>Regular security updates</li>
+    </ul>
+
+    <h2>Data Retention</h2>
+    <ul>
+        <li><strong>API Credentials:</strong> Stored until you manually delete them</li>
+        <li><strong>Video Metadata:</strong> Retained for 30 days, then automatically deleted</li>
+        <li><strong>Publishing Logs:</strong> Retained for 30 days, then automatically deleted</li>
+    </ul>
+
+    <h2>Your Rights</h2>
+    <p>You have the right to:</p>
+    <ul>
+        <li>Access your stored data</li>
+        <li>Request deletion of your data</li>
+        <li>Revoke API access at any time</li>
+        <li>Update your API credentials</li>
+    </ul>
+    <p>To exercise these rights, simply:</p>
+    <ul>
+        <li>Delete API credentials from your <code>.env</code> file</li>
+        <li>Revoke access in your TikTok Developer Portal</li>
+        <li>Delete log files from your server</li>
+    </ul>
+
+    <h2>Third-Party Services</h2>
+    <p>This service uses:</p>
+    <h3>TikTok API</h3>
+    <ul>
+        <li>Governed by TikTok's Privacy Policy and Terms of Service</li>
+        <li>See: <a href="https://developers.tiktok.com/terms/privacy-policy">https://developers.tiktok.com/terms/privacy-policy</a></li>
+    </ul>
+    <p>We do not control TikTok's data practices. Please review their privacy policy.</p>
+
+    <h2>Children's Privacy</h2>
+    <p>This service is not directed to children under 13. We do not knowingly collect information from children.</p>
+
+    <h2>International Users</h2>
+    <p>This service is operated from Taiwan (R.O.C.). By using the service, you consent to the transfer and processing of your data in Taiwan.</p>
+
+    <h2>Changes to This Policy</h2>
+    <p>We may update this Privacy Policy at any time. Changes will be posted with a new "Last Updated" date.</p>
+    <p>Continued use of the service after changes constitutes acceptance of the updated policy.</p>
+
+    <h2>Contact Us</h2>
+    <p>For questions about this Privacy Policy, please contact us via GitHub.</p>
+
+    <h2>Compliance</h2>
+    <p>This service complies with:</p>
+    <ul>
+        <li>TikTok Developer Terms of Service</li>
+        <li>Taiwan Personal Information Protection Act (PIPA)</li>
+        <li>General industry best practices for data protection</li>
+    </ul>
+
+    <hr style="margin: 40px 0; border: none; border-top: 1px solid #ddd;">
+
+    <p><strong>Consent:</strong> By using Pet Knowledge Auto Publisher, you acknowledge that you have read and understood this Privacy Policy and consent to the collection and use of your information as described herein.</p>
+</body>
+</html>
